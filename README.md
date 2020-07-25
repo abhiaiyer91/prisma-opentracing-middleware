@@ -14,6 +14,16 @@ Install the package using `yarn`:
 yarn add prisma-opentracing-middleware
 ```
 
+### Feature flag
+Middlewares need to be enabled with the feature flag middlewares like so:
+
+```
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["middlewares"]
+}
+```
+
 ## Code
 
 ```js
