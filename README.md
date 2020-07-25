@@ -1,6 +1,6 @@
 # prisma-opentracing-middleware
 
-Prisma (2) Client middleware.
+[Prisma](https://www.prisma.io/) (2) Client middleware.
 
 ## Required Reading
 
