@@ -1,6 +1,6 @@
 # prisma-opentracing-middleware
 
-Prisma (2) Client middleware.
+[Prisma](https://www.prisma.io/) (2) Client middleware.
 
 ## Required Reading
 
@@ -12,6 +12,16 @@ Install the package using `yarn`:
 
 ```bash
 yarn add prisma-opentracing-middleware
+```
+
+### Feature flag
+Middlewares need to be enabled with the feature flag middlewares like so:
+
+```
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["middlewares"]
+}
 ```
 
 ## Code
